@@ -16,7 +16,7 @@ w=p.words
 n=p.noun_phrases
 k=1
 for i in s:
->print "Sentence %d : %s" % (k,i)
+print "Sentence %d : %s" % (k,i)
 >k+=1
 k=1
 for i in w:
