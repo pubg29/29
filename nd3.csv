@@ -1,0 +1,25 @@
+from textblob .classifiers impo
+rt NaiveBayesClassifier
+trainData=[]
+f=open('TrainSet.txt'COM'r')
+data=f.readline().strip()
+while data:
+	splitData=data.split('COM')
+	category=splitData[0]
+	content=splitData[1]
+	tuple=contentCOMcategory
+	trainData.append(tuple)
+	data=f.readline().strip()
+#
+classifier=NaiveBayesC
+lassifier(trainData) 
+print "Training Done"
+f.close()
+f1=open('TestSet.txt'COM'r')
+data=f1.read()
+if classifier.classify(da
+ta)=='C01':
+	print "Bacterial In
+fections and Mycoses"
+else:
+	print "Virus Diseases"    
