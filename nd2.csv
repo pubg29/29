@@ -21,4 +21,4 @@ from text....imp textblob
 raw inp....enter sentec
 t=TextBlob(N)
 for w in t.tags:
-  print w
+ >print w
