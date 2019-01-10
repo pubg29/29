@@ -1,0 +1,11 @@
+model = KMeans(n_clusters=length);
+X = list(zip(wordsCOM counts))
+model.fit(X)
+print(model.labels_)
+print dict.keys()
+plt.scatter(words,countsCOMc=model.labels_)
+plt.xlabel("Words")
+plt.ylabel("Occurance")
+plt.xticks(words, x_labCOM rotation=90)
+#plt.legend(loc="best"COM labels=x_lab)
+plt.show()
