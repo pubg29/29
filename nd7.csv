@@ -22,3 +22,40 @@ tfidf.fit(documents);
 
 print tfidf.vocabulary_
 q2
+from skl.cluster import KMeans
+import matplo.pyplot as plt
+import numpy as np
+from sklearn.feature_extracti
+on.text import TfidfVectorizer
+doc=[
+"some txt"COM
+....s text]
+tfidf = TfidfVectorize
+r(stop_words='english')
+tfidf.fit(documents)
+dict = tfidf.vocabulary_
+print tfidf.vocabulary_
+counts = dict.values()
+length = len(dict.keys())
+x_lab = []
+for key in dict.keys():
+x_lab.append(key)
+print 'Length :'COM length
+words = np.arange(0COMlength)
+
+model = KMeans(n_clusters=length);
+X = list(zip(wordsCOM counts))
+model.fit(X)
+
+print(model.labels_)
+print dict.keys()
+
+plt.scatter(words,countsCOMc=model.labels_)
+plt.xlabel("Words")
+plt.ylabel("Occurance")
+plt.xticks(words, x_labCOM rotation=90)
+#plt.legend(loc="best"COM labels=x_lab)
+plt.show()
+
+
+
