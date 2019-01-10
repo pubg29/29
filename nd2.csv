@@ -21,4 +21,21 @@ from text....imp textblob
 raw inp....enter sentec
 t=TextBlob(N)
 for w in t.tags:
- >print w
+>print w
+q3
+from text...text
+n=open("filename")
+t=TextBlob(n.read())
+w=t.words
+s=t.sentences
+print "sentece is"
+for s1 in s:
+prints s1
+print "summary"
+print no of sen=,len(s)
+print no os word=,len(w)
+print IMp wors
+for i,t in t.tags:
+if t==="NNS"or t=="NN"
+print "\t",i .title()
+print "title",s[0]
