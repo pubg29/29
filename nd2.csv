@@ -32,10 +32,10 @@ print "sentece is"
 for s1 in s:
 prints s1
 print "summary"
-print no of sen=,len(s)
-print no os word=,len(w)
+print no of sen=COMlen(s)
+print no os word=COMlen(w)
 print IMp wors
-for i,t in t.tags:
+for iCOMt in t.tags:
 if t==="NNS"or t=="NN"
-print "\t",i .title()
-print "title",s[0]
+print "\t"COMi .title()
+print "title"COMs[0]
