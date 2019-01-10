@@ -1,4 +1,4 @@
-1. Create a few sentences . 
+a,b1. Create a few sentences . 
 Find the frequency count 
 of the words in the vocabulary.
 2. Cluster the words in
@@ -20,29 +20,7 @@ tfidf = TfidfVectorize
 r(stop_words='english');
 tfidf.fit(documents);
 
-print tfidf.vocabulary_
-q2
-from skl.cluster import KMeans
-import matplo.pyplot as plt
-import numpy as np
-from sklearn.feature_extracti
-on.text import TfidfVectorizer
-doc=[
-"some txt"COM
-....s text]
-tfidf = TfidfVectorize
-r(stop_words='english')
-tfidf.fit(documents)
-dict = tfidf.vocabulary_
-print tfidf.vocabulary_
-counts = dict.values()
-length = len(dict.keys())
-x_lab = []
-for key in dict.keys():
-x_lab.append(key)
-print 'Length :'COM length
-words = np.arange(0COMlength)
-
+====
 model = KMeans(n_clusters=length);
 X = list(zip(wordsCOM counts))
 model.fit(X)
