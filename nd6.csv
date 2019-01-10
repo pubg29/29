@@ -1,0 +1,9 @@
+que
+1 raw input dis sub and polarity od stmt
+2 if sub is 0.0 print face
+not sub not zero if pola btw 0 and 1 disp pos
+if pol btw -1 and 0 disp negative
+if pol equ o disp nutral
+3 take tweets from fifacom dis 10 tweets
+4 from 3 say if tweets r pos neg or nue
+5 count of pos neg and nue
