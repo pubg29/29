@@ -1,3 +1,12 @@
+que
+1 def a para
+dis sente
+dis word
+dis nouns
+2 accpt string from usr
+spell correct
+to french
+ans====
 import ntlk
 from textblob import TextBlob
 p.TextBlob("")
