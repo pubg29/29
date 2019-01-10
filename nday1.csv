@@ -5,8 +5,6 @@
 2. Accept a string from the user. 
 	i. Attempt to correct the spellings of the words.
 	ii. Translate the content into French (code fr)
-
-
 q1
 import nltk
 from textblob import TextBlob
@@ -26,8 +24,6 @@ for i in w:
 print "Nouns"
 for i in n:
 	print i.title()
-
-
 q2
 from textblob import TextBlob
 s=raw_input("Enter the string :")
