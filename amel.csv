@@ -1,0 +1,2 @@
+import ntlk
+from textblob import TextBlob
