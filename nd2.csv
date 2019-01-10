@@ -3,4 +3,22 @@ que==
 2plural to sing
 3accpt sentence and disp part of speech
 4create a file and add some content to it
-q
+conted to include
+no of sen
+no of words
+main word
+summary of imp word
+ans
+q1
+from tex...im..word
+n=raw....enter the noun
+t=Word(n)
+print t.pluralize()
+q2
+print t.singularize()
+q3
+from text....imp textblob
+raw inp....enter sentec
+t=TextBlob(N)
+for w in t.tags:
+  print w
