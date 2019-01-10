@@ -7,3 +7,47 @@ if pol equ o disp nutral
 3 take tweets from fifacom dis 10 tweets
 4 from 3 say if tweets r pos neg or nue
 5 count of pos neg and nue
+and==
+q1
+from text...text
+s=raw input"enter sen
+se=TextBlob(s)
+print se.sentiment
+q2
+from textblob import TextBlob
+s=raw_input("Enter the sentence : ")
+se=TextBlob(s)
+pol=se.sentiment.polarity
+sub=se.sentiment.subjectivity
+if sb==00 its face
+if pol>0  pos
+elif pol ==0 nue
+else neg
+q4
+import tweepy 
+from textblob import TextBlob
+consumer_key = "OlXJYelDKuz7Zr9BX6xYbAAgq" 
+consumer_secret = "XcF9uDM1ne2BgeFyCX1pvIWzUBtDAL9d8t9QuxbySvZg1qSuEd"
+access_key = "2202669843-LQCwOPE7Idoc7aDLajrWy5r3hGQ62PpfAE94mtk"
+access_secret = "UCQLivdu341a4bKj9EdWUM8ItOjwxX21fNdcxgplibta1"
+def sent (se)
+if se>0:
+return "pos
+elif se==0
+return nue
+else 
+return neg"
+username="FIFAcom"
+auth = tweepy.OAuthHandler(consumer_keyCOM consumer_secret) 
+auth.set_access_token(access_keyCOM access_secret) 
+api = tweepy.API(auth) 
+number_of_tweets=10
+tweets = api.user_timeline(screen_name=username) 
+tmp=[]  
+tweets_for_csv = [tweet.text for tweet in tweets] #
+for j in tweets_for_csv: 
+tmp.append(j)  
+for i in tmp:
+ti=TextBlob(i)
+se=ti.sentiment.polarity
+print iCOM" :::: Review "COMsent(se) 
