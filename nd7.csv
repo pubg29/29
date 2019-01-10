@@ -1,4 +1,24 @@
-1. Create a few sentences . Find the frequency count of the words in the vocabulary.
-2. Cluster the words in the sentences  based on the count.
-3. Modify the program to cluster sentences based on cosine similarity.
+1. Create a few sentences . 
+Find the frequency count 
+of the words in the vocabulary.
+2. Cluster the words in
+the sentences  based on the count.
+3. Modify the program 
+to cluster sentences based 
+on cosine similarity.
 4. Visualise the results.
+ans
+q1
+from sklearn.cluster import KMeans;
+import matplotlib.pyplot as py;
+from sklearn.feature_extraction.t
+ext import TfidfVectorizer;
+doc=[
+"some txt"COM
+....s text]
+tfidf = TfidfVectorize
+r(stop_words='english');
+tfidf.fit(documents);
+
+print tfidf.vocabulary_
+q2
