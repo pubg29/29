@@ -15,3 +15,12 @@ k=k+1
 print noun"
 for in in n:
 print i.title
+q2
+...
+from textblo....Text..
+s=raw_input("")
+s1=TetBlob(s)
+sc=s1.correct()
+print sc
+t=sc.transulate(to="fr")
+print t 
