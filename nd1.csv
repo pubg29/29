@@ -1,0 +1,17 @@
+import ntlk
+from textblob import TextBlob
+p.TextBlob("")
+s=p.sentences
+pri s
+w=p.words
+n=p.noun_phrases
+k=1
+for i in s:
+print s[]....
+k=k+1
+for i in w:
+print word..
+k=k+1
+print noun"
+for in in n:
+print i.title
